@@ -295,3 +295,79 @@
 
 /* footer */
 
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer_theme_dark {
+  color: white;
+}
+
+.footer__columns {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.content_info {
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer__column-link:last-child {
+  padding-bottom: 16px;
+}
+
+.content-social {
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
