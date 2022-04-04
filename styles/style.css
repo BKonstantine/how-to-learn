@@ -33,7 +33,7 @@
 
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
-  background-size: cover;  
+  background-size: cover;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -185,7 +185,7 @@
 }
 
 .table__cell {
-  z-index: 1;  
+  z-index: 1;
 }
 
 .table__cell_width_l {
