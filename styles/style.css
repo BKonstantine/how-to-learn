@@ -340,9 +340,6 @@
   line-height: 25px;
 }
 
-.content_info {
-}
-
 .footer__column-heading {
   margin: 0 0 20px 0;
   font-size: 18px;
@@ -364,9 +361,6 @@
 
 .footer__column-link:last-child {
   margin-bottom: 16px;
-}
-
-.content-social {
 }
 
 .footer__social-icon {
