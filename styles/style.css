@@ -33,6 +33,7 @@
 
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
+  background-size: cover;  
   position: absolute;
   top: 30px;
   left: 64px;
@@ -44,7 +45,7 @@
   margin: 0 0 0 64px;
   z-index: 2;
   font-size: 102px;
-  line-height: 95px;
+  line-height: 96px;
   font-weight: 700;
   color: #000;
 }
@@ -88,6 +89,13 @@
   z-index: 0;
 }
 
+/* Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Description */
 
 .description {
@@ -107,7 +115,7 @@
   width: 175px;
   align-self: flex-start;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.2em;
   color: #2f80ed;
   font-weight: normal;
 }
@@ -148,44 +156,36 @@
 
 .section-title {
   margin: 0;
+  font-size: 60px;
+  line-height: 1.15em;
+  font-weight: 700;
+  z-index: 1;
 }
 
 .section-title_margin {
   margin-bottom: 20px;
 }
 
-.section-title_text_style {
-  font-size: 60px;
-  line-height: 1.15;
-  font-weight: 700;
-}
-
 .section-subtitle {
   margin: 0;
-}
-
-.section-subtitle_text_style {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .table {
   padding: 0;
   margin: 0;
+  width: 1100px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.table_width {
-  width: 1100px;
-} /* Возможно необходимо будет переделать */
-
 .table__cell {
-  z-index: 1;
-  /* background-color: #2f80ed; */ /* Возможно необходимо будет переделать */
+  z-index: 1;  
 }
 
 .table__cell_width_l {
@@ -198,25 +198,19 @@
 
 .table__heading {
   margin: 0 0 20px 0;
-}
-
-.table__heading_font_style {
   font-size: 24px;
-  line-height: 1.15;
+  line-height: 1.15em;
   font-weight: 700;
 }
 
 .table__text {
   margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 1.2em;
 }
 
 .table__text:last-child {
   margin: 0;
-}
-
-.table__text_font_style {
-  font-size: 18px;
-  line-height: 1.2;
 }
 
 /* Feynman */
@@ -229,14 +223,16 @@
   align-items: center;
   text-align: center;
 }
+
 .feynman__title {
   margin: 100px 0 70px 0;
   width: 648px;
   font-size: 120px;
-  line-height: 1.15;
+  line-height: 1.15em;
   font-weight: 700;
   z-index: 1;
 }
+
 .feynman__subtitle {
   margin: 0;
   font-size: 36px;
@@ -333,6 +329,7 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
+  background-size: cover;
 }
 
 .footer__author {
@@ -366,7 +363,7 @@
 }
 
 .footer__column-link:last-child {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .content-social {
