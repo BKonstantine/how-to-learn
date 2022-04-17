@@ -1,5 +1,15 @@
-.resources__link {
-  width: 270px;
-  height: 38px;
-  object-fit: cover;
+.resources__link:hover .resources__logo_company_arzamas {
+  opacity: 0.6;
+}
+
+.resources__link:hover .resources__logo_company_nplus {
+  opacity: 0.6;
+}
+
+.resources__link:hover .resources__logo_company_strelka {
+  opacity: 0.6;
+}
+
+.resources__link:hover .resources__logo_company_polka {
+  opacity: 0.6;
 }

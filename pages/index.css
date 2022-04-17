@@ -64,9 +64,13 @@
 
 /* resources's style */
 @import url(../blocks/resources/resources.css);
-/* @import url(../blocks/resources/__nav/resources__nav.css); */
-@import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo/_company/resources__logo_company_arzamas.css);
+@import url(../blocks/resources/__logo/_company/resources__logo_company_nplus.css);
+@import url(../blocks/resources/__logo/_company/resources__logo_company_strelka.css);
+@import url(../blocks/resources/__logo/_company/resources__logo_company_polka.css);
 
 /* footer's style */
 @import url(../blocks/footer/footer.css);
