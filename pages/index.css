@@ -4,6 +4,9 @@
 /* page's style */
 @import url(../blocks/page/page.css);
 
+/* rotation's style */
+@import url(../blocks/rotation/rotation.css);
+
 /* header's style */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/logo/logo.css);
@@ -24,6 +27,14 @@
 @import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* techniques's style */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/cards/cards.css);
+@import url(../blocks/techniques/cards/__item/cards__item.css);
+@import url(../blocks/techniques/cards/__image/cards__image.css);
+@import url(../blocks/techniques/cards/__title/cards__title.css);
+@import url(../blocks/techniques/cards/__description/cards__description.css);
 
 /* digits's style */
 @import url(../blocks/digits/digits.css);
@@ -50,6 +61,12 @@
 @import url(../blocks/kaufman/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/kaufman/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/* resources's style */
+@import url(../blocks/resources/resources.css);
+/* @import url(../blocks/resources/__nav/resources__nav.css); */
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 /* footer's style */
 @import url(../blocks/footer/footer.css);
