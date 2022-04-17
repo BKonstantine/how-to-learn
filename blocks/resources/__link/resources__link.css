@@ -1,5 +1,3 @@
-.resources__link {
-  width: 270px;
-  height: 38px;
-  object-fit: cover;
+.resources__link:hover .resources__logo {
+  opacity: 0.6;
 }
